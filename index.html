@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio Webside</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a15672a801.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <dir id="header">
+        <div class="container">
+            <nav>
+                <img src="Image/Prabhakar (1).png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark"onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars"onclick="openmenu()"></i>
+
+            </nav>
+            <header class="header-text">
+                <p>Software Engineer</p>
+                <h1>Hi, I'M <span>Prabhakar</span> <br> Kumar Yadav From India</h1>
+
+            </header>
+        </div>
+    </dir>
+    <!-- _____________________________About______________________________________________ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Image/user.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About</h1>
+                   <p>I am an energetic, ambitious person who has developed a mature and responsible approach to any task that I undertake,
+                     or situation that I am presented with.I use a creative approach to problem solving.
+
+                     .</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links"  onclick="opentab('education')">Education</p>
+                        <p class="tab-links"  onclick="opentab('experiences')">Experiences</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br><br> HTML/CSS <br><br> JAVA<br><br> C <br><br>Python<br><br> Mysql</li>
+                            <li><span>Android Development</span><br><br>JAVA<br><br>FIREBASE</li>
+        
+                        </ul>
+                    </div>
+                    <div class="tab-contents "id="education">
+                        <ul>
+                            <li><span>Master Of Computer Application</span><br>Galgotias University , Greater Noida<br>Percentage Pursuing</li>
+                            <li><span>Bachelor Of Computer Application</span><br>Chhatrapati Shahu Ji Maharaj University , Kanpur<br> Percentage : 66.5 %</li>
+                            <li><span>Intermediate</span><br>Bihar School Examination Board , Patna<br>Percentage : 78 %
+                            </li>
+                            <li><span>High School</span><br>Central Board Of Secondary Education , New Delhi<br>Percentage : 85 %</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id ="experiences">
+                        <ul>
+                            
+                            <li><span>Fresher</span><br></li>
+                            <!-- <li><span>Web Development</span><br>Android development</li>
+                            <li><span>Web Development</span><br>Android development</li> -->
+                           
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------------services-------------------------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services </h1>
+            <div class="services-list">
+             <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Modern web development also includes web applications.
+                     Web applications are software packages that run on a web server and are accessed through the 
+                    internet. This is unlike a traditional application that runs on your computer, tablet, or phone.</p>
+               
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-android"></i>
+                <h2>Android Development</h2>
+                <p>Android is an open-source operating system, based on the Linux kernel and used in mobile devices like smartphones, tablets, etc. Further, it was developed for smartwatches and Android TV. Each of them has a specialized interface. Android has been one of the best-selling OS for smartphones. Android OS was developed by Android Inc. which Google bought in 2005. Various applications like games, music player, camera, etc. are built for these smartphones for running on Android. Google Play Store features quite 3.3 million apps</p>
+                 <a href="#">Learn more</a>
+            </div>
+           
+            </div>         
+        </div>
+    </div>
+
+    <!-- -----------------------------Portfolio-------------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Image/work-1.png">
+                    <div class="layer">
+                        <h3>E-commerce</h3>
+                        <p>Modern web development also includes web applications. 
+                            Web applications are software packages that run on a web server and are accessed through the internet.
+                             This is unlike a traditional application that runs on your computer, tablet, or phone.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Image/work-2.png">
+                    <div class="layer">
+                        <h3>Chat-Application</h3>
+                        <p>The Java Chat application you are going to build is a console application that is launched from the command line. The server and clients can run on different computers in the same network, e.g. Local Area Network (LAN).
+                            There can be multiple clients connect to a server and they can chat to each other, just like in a chat room where everyone can see other users’ messages. There’s no private chat between two users, for simplicity.
+                            After getting connected to the server, a user must provide his or her name to enter the chat. The server sends a list of currently online users to the new user.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+               
+            </div>
+
+             <a href="#" class ="btn">See More</a>
+        </div>
+    </div>
+    <!-- -----------------------Contact------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1  class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>prabhakarkumaryadav5519@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+91 6200384661</p>
+                    <div class="social-icon">
+                      <a href="https://www.facebook.com/profile.php?id=100017934121271"><i class="fa-brands fa-facebook"></i></a>
+                      <a href="https://www.instagram.com/prabhakar_rao___/"><i class="fa-brands fa-instagram"></i></a>
+                      <a href="https://twitter.com/prabhakar_980"><i class="fa-brands fa-twitter square"></i></a>
+                      <a href="https://www.linkedin.com/in/prabhakar-kumar-yadav-a39690226/"><i class="fa-brands fa-linkedin"></i></a>
+                       
+                    </div>
+                    <a href="Image/Prabhakar.res.pdf" download class ="btn btn2">Download Cv</a>
+                </div>
+                <div class="contact-right ">
+                    <form name="submit-to-google-sheet">
+                        <input type="text"name="Name"placeholder="Your Name"required>
+                        <input type="email"name="Email"placeholder="Your Email"required>
+                        <textarea name="Message" rows="6"placeholder ="Your Message"></textarea>
+                        <button type="submit"class ="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+           
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-solid fa-copyright"></i> Made by<i class="fa-solid fa-heart"></i> Prabhakar</p>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks=document.getElementsByClassName('tab-links');
+        var tabcontents=document.getElementsByClassName('tab-contents');
+
+        function opentab(tabname){
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbz0JoIV7FcOLqP_UE7VIj5zPCZHbXMIN_VA4_h1JtR9KwCrLtWIl67Uuc_kwbHHa4v3/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg =document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    
+</body>
+</html>
